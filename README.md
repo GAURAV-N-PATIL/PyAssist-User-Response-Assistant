@@ -1,15 +1,18 @@
 # PyAssist-User-Response-Assistant
-PyAssist/<br>
-│<br>
-├── README.md<br>
-├── requirements.txt<br>
-├── .gitignore<br>
-│<br>
-├── src/<br>
-│   └── PyAssist.py<br>
-│<br>
-└── notes/<br>
-    └── ideas.md<br>
+
+```
+PyAssist/
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+│
+├── src/
+│   └── PyAssist.py
+│
+└── notes/
+    └── ideas.md
+```
 
 # User Response Assistant
 
