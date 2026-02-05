@@ -18,6 +18,18 @@ elif User_input in Exit_keywords:
 elif User_input in Identity_keywords:
     intent = "Identity"
 
+# Output the recognized intent
+def output_response(intent):
+    if intent == "GREETING":
+        print("Hello there! I'm PyAssist. How can I help you today?")
+    elif intent == "EXIT":
+        print("Goodbye! Have a great day!")
+        exit()
+    elif intent == "IDENTITY":
+        print("I am PyAssist, your personal assistant designed to help you with various tasks.")
+    else:
+        print("I'm sorry, I didn't understand that command.")
+
 # function to run the main program
 def main():
     print("Welcome to PyAssist!")
