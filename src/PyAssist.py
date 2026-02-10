@@ -37,5 +37,5 @@ while intent not in Exit_keywords:
 # function to run the main program
 def main():
     print("Welcome to PyAssist!")
-    if __name__ == "__main__":
-        main()
+if __name__ == "__main__":
+    main()
